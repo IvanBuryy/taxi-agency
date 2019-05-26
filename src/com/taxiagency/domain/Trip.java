@@ -9,7 +9,7 @@ public class Trip implements Entity {
     private int durarionMins;
 
     @Override
-    public int getId() {
+    public String getId() {
         return null;
     }
 

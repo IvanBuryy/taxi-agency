@@ -6,7 +6,7 @@ public class Passenger implements Entity{
     private String mobilePhone;
 
     @Override
-    public int getId() {
+    public String getId() {
         return null;
     }
 

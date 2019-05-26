@@ -15,7 +15,7 @@ public  class Car implements Entity{
     public String getName() {
         return name;
     }
-    public int getId() {return id;}
+    public String getId() {return id;}
 
     @Override
     public void setId() {
