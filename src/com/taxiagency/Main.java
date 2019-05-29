@@ -16,7 +16,7 @@ public class Main {
             String name = "Ivan";
             Driver driver = new Driver(id, name);
             driveRamDao.save(driver);
-            List<Driver> driverList = ((DriveRamDao) driveRamDao).findByName();
+            List<Driver> driverList = driveRamDao.findAll();
             System.out.println(driver);
         }
     }

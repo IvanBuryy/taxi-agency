@@ -23,9 +23,20 @@ public class Driver implements Entity {
 
     @Override
     public String toString() {
-        return "Driver{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                '}';
+        return "id: " +id + ";" + " name: " + name + ";\n";
     }
+
+
+    public Driver(String str){
+        String[] splitter = str.split(";");
+
+        String idDriver = splitter[0];
+        String  id = idDriver.substring(idDriver.indexOf(":")+1).trim();
+
+        String nameDriver = splitter[1];
+        String  name = nameDriver.substring(nameDriver.indexOf(":")+1).trim();
+
+        this.id = id;
+        this.name = name;}
+
 }

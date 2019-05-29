@@ -1,6 +1,7 @@
 package com.taxiagency.dao;
 
 import com.taxiagency.domain.Entity;
+import com.taxiagency.domain.Driver;
 
 import java.util.List;
 
@@ -36,4 +37,6 @@ public class FileDao implements Dao {
     public List findAll() {
         return null;
     }
+
+
 }
