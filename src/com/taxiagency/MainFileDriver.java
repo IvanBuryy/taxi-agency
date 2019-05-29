@@ -20,9 +20,9 @@ public class MainFileDriver {
         }
 
         Driver driver = new Driver("1", "Ivan");
-        Driver driver1 = new Driver("1", "Ivan");
-        Driver driver2 = new Driver("1", "Ivan");
-        Driver driver3 = new Driver("1", "Ivan");
+        Driver driver1 = new Driver("2", "Ilya");
+        Driver driver2 = new Driver("3", "Borya");
+        Driver driver3 = new Driver("4", "Igor");
 
         try(
                 FileWriter fw = new FileWriter(driverFile);
